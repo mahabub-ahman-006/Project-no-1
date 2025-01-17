@@ -2,7 +2,7 @@
 
   "name": "@teligram-bot/fb-downloader",
 
-  "version": "1.0.14",
+  "version": "1.0.0",
 
   "description": "Downloads HD videos from Facebook.",
 
@@ -30,7 +30,7 @@
 
   ],
 
-  "author": "TIKAM CHAND MEGHWANSHI <https://www.tcmhack.in>, RFS-ADRENO",
+  "author": "MAHABUB RAHMAN",
 
   "license": "MIT",
 
