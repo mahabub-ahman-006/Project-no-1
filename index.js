@@ -24,7 +24,7 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
     accept:
       "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
     cookie:
-      cookie || "sb=Rn8BYQvCEb2fpMQZjsd6L382; datr=Rn8BYbyhXgw9RlOvmsosmVNT; c_user=100003164630629; _fbp=fb.1.1629876126997.444699739; wd=1920x939; spin=r.1004812505_b.trunk_t.1638730393_s.1_v.2_; xs=28%3A8ROnP0aeVF8XcQ%3A2%3A1627488145%3A-1%3A4916%3A%3AAcWIuSjPy2mlTPuZAeA2wWzHzEDuumXI89jH8a_QIV8; fr=0jQw7hcrFdas2ZeyT.AWVpRNl_4noCEs_hb8kaZahs-jA.BhrQqa.3E.AAA.0.0.BhrQqa.AWUu879ZtCw",
+      cookie || "sb=A9xHZ4WUKnlkSGllM6rB1KUQ;datr=Ay1sZ8gtTXkiPUePPS5k03E8;ps_l=1;ps_n=1;c_user=61569107684437;xs=13%3AahbVmlIWo63x1w%3A2%3A1735617748%3A-1%3A10316;fbl_st=100426927%3BT%3A28943086;wl_cbv=v2%3Bclient_version%3A2710%3Btimestamp%3A1736585164;vpd=v1%3B1071x891x2.082077741622925;wd=891x1667;locale=en_US;fr=1ezIK3R2vRMAtMfd7.AWVsg8lRQaqEzOUUc_nLllaThOQ.Bng0Mh..AAA.0.0.Bnihfu.AWV6PWxZ50I;dpr=2.082077741622925;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737103363096%2C%22v%22%3A1%7D;",
   };
 
   const parseString = (string) => JSON.parse(`{"text": "${string}"}`).text;
